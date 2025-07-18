@@ -1,5 +1,43 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "recharts": "^3.1.0"
   }
+=======
+  "name": "webpsyco64",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^5.11.6",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^11.0.1",
+    "next": "15.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "global-context.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+>>>>>>> fe334511e5a834b60321c75f7d99272aad63aeaa
 }
